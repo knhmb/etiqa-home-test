@@ -1,0 +1,43 @@
+.card {
+    border-bottom: 1px solid gray;
+    padding: 2rem;
+}
+
+.card:last-of-type {
+    border-bottom: none;
+}
+
+.text {
+    margin-bottom: .5rem;
+}
+
+.text p:first-of-type {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.text p:last-of-type {
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info .img-content, .rating-content {
+    display: flex;
+    align-items: center;
+}
+
+.info .img-content, .rating-content img {
+    width: 1rem;
+    margin-right: .2rem;
+}
+
+.info .img-content img {
+    margin-right: .5rem;
+    width: 2rem;
+}

@@ -1,0 +1,32 @@
+.App {
+  height: calc(100vh - 2rem);
+  border: 1px solid gray;
+  border-top: none;
+  border-bottom: none;
+}
+
+header, footer {
+  height: 10%;
+}
+
+.main {
+  height: 80%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-content img {
+  width: 2.5rem;
+}
+
+.footer-content p.active {
+  color: #0098FF;
+}
